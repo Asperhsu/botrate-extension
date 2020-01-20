@@ -1,0 +1,29 @@
+{
+    "name": "bot-rate-extension",
+    "description": "台灣銀行匯率列表工具",
+    "version": 1.0,
+    "manifest_version": 2,
+    "icons": {
+        "48": "icons/icon_48.png",
+        "128": "icons/icon_128.png"
+    },
+    "browser_action": {
+        "default_title": "台灣銀行匯率列表",
+        "default_popup": "popup/popup.html"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "options_ui": {
+        "page": "options/options.html",
+        "chrome_style": false,
+        "open_in_tab": true
+    },
+    "permissions" : [
+        "alarms",
+        "storage",
+        "https://storage.googleapis.com/"
+    ]
+}
