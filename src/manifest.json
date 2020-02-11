@@ -1,6 +1,6 @@
 {
     "name": "bot-rate-extension",
-    "description": "台灣銀行匯率列表工具",
+    "description": "非官方台灣銀行匯率列表工具",
     "version": 1.0,
     "manifest_version": 2,
     "icons": {
